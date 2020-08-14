@@ -1,0 +1,16 @@
+.about {
+  background: #f5f9ff;
+  padding-top: 45px;
+  &__lower-section {
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+    transform: translateY(-60px);
+  }
+  &__icon {
+    padding-bottom: 2.4rem;
+  }
+
+  &__content {
+    font-family: "Trueno Light", sans-serif;
+    font-weight: normal;
+  }
+}

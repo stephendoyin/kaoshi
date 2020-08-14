@@ -1,0 +1,48 @@
+.testimonial {
+  padding: 90px 0 35px 0;
+  &__content {
+    background: #ffffff;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 21px 36px;
+  }
+  &__p {
+    font-size: 1.1rem;
+    color: #01114c;
+    font-family: "Trueno Regular", sans-serif;
+    font-weight: normal;
+  }
+  &__avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 30px;
+
+    img {
+      width: 100%;
+    }
+  }
+  .h3 {
+    padding-bottom: 70px;
+  }
+  &__item {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+  &__row:last-child {
+    transform: translateX(0px);
+  }
+}
+
+@media only screen and (min-width: 1340px) {
+  .testimonial__row:last-child {
+    transform: translateX(90px);
+  }
+}
+@media only screen and (min-width: 840px) {
+  .testimonial__item {
+    width: 46%;
+    margin-bottom: 0px;
+  }
+}

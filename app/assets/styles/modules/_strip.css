@@ -1,0 +1,11 @@
+.strip {
+  background: url(../../assets/images/Rectangle.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 56px 0;
+
+  .lead {
+    font-family: "Trueno Bold", sans-serif;
+    font-weight: normal;
+  }
+}

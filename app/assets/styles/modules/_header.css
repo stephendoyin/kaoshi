@@ -1,0 +1,27 @@
+.c-header {
+  min-height: 100vh;
+  &__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    max-width: 70%;
+  }
+  &__text-container {
+    width: 45%;
+    position: relative;
+    z-index: 21;
+  }
+  &__img-container {
+    width: 52%;
+
+    img {
+      width: 100%;
+      margin-top: ;
+    }
+  }
+  &__title {
+    font-size: 4rem;
+    color: #1a244e;
+  }
+}
