@@ -2,7 +2,7 @@ const { watch, task, series, src } = require("gulp");
 const browserSync = require("browser-sync").create();
 
 task("cssInject", function () {
-  return src("./app/temp/assets/styles/styles.css").pipe(browserSync.stream());
+  return src("./app/temp/styles/styles.css").pipe(browserSync.stream());
 });
 
 task("scriptsRefresh", function (cb) {

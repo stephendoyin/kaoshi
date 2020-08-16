@@ -1,7 +1,7 @@
 .work {
   &__section {
     padding-top: 3rem;
-    background: url(../../../assets/images/bgdesign.png);
+    background: url(../../assets/images/bgdesign.png);
     background-repeat: no-repeat;
     background-position: right bottom;
   }

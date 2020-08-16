@@ -1,6 +1,6 @@
 .why {
   &__section {
-    background: url(../../../assets/images/background.png);
+    background: url(../../assets/images/background.png);
     background-position: center top;
     background-size: cover;
     padding: 14rem 0 5rem 0;

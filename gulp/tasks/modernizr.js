@@ -8,5 +8,5 @@ task("modernizr", function () {
         options: ["setClasses"],
       })
     )
-    .pipe(dest("./app/temp/assets/scripts/"));
+    .pipe(dest("./app/temp/scripts/"));
 });

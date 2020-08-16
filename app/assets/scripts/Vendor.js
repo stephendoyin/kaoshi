@@ -1,1 +1,1 @@
-import "../../temp/assets/scripts/modernizr";
+import "../../temp/scripts/modernizr";

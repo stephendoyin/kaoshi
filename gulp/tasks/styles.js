@@ -14,5 +14,5 @@ task("styles", function () {
       console.log(errorInfo.toString());
       this.emit("end");
     })
-    .pipe(dest("./app/temp/assets/styles"));
+    .pipe(dest("./app/temp/styles"));
 });

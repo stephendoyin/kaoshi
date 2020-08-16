@@ -2,55 +2,57 @@
   font-family: Girory;
   font-weight: 300;
   font-style: normal;
-  src: url(../fonts/Gilroy-Light/Gilroy-Light.eot);
-  src: url(../fonts/Gilroy-Light/Gilroy-Light.svg) format("svg"),
-    url(../fonts/Gilroy-Light/Gilroy-Light.woff) format("woff"),
-    url(../fonts/Gilroy-Light/Gilroy-Light.woff2) format("woff2"),
-    url(../fonts/Gilroy-Light/Gilroy-Light.ttf) format("truetype");
+  src: url(../../assets/fonts/Gilroy-Light/Gilroy-Light.eot);
+  src: url(../../assets/fonts/Gilroy-Light/Gilroy-Light.svg) format("svg"),
+    url(../../assets/fonts/Gilroy-Light/Gilroy-Light.woff) format("woff"),
+    url(../../assets/fonts/Gilroy-Light/Gilroy-Light.woff2) format("woff2"),
+    url(../../assets/fonts/Gilroy-Light/Gilroy-Light.ttf) format("truetype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 400;
   font-style: normal;
-  src: url(../fonts/Gilroy-Regular/Gilroy-Regular.eot);
-  src: url(../fonts/Gilroy-Regular/Gilroy-Regular.svg) format("svg"),
-    url(../fonts/Gilroy-Regular/Gilroy-Regular.woff) format("woff"),
-    url(../fonts/Gilroy-Regular/Gilroy-Regular.woff2) format("woff2"),
-    url(../fonts/Gilroy-Regular/Gilroy-Regular.ttf) format("truetype");
+  src: url(../../assets/fonts/Gilroy-Regular/Gilroy-Regular.eot);
+  src: url(../../assets/fonts/Gilroy-Regular/Gilroy-Regular.svg) format("svg"),
+    url(../../assets/fonts/Gilroy-Regular/Gilroy-Regular.woff) format("woff"),
+    url(../../assets/fonts/Gilroy-Regular/Gilroy-Regular.woff2) format("woff2"),
+    url(../../assets/fonts/Gilroy-Regular/Gilroy-Regular.ttf) format("truetype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 500;
   font-style: normal;
-  src: url(../fonts/Gilroy-Medium/Gilroy-Medium.eot);
-  src: url(../fonts/Gilroy-Medium/Gilroy-Medium.svg) format("svg"),
-    url(../fonts/Gilroy-Medium/Gilroy-Medium.woff) format("woff"),
-    url(../fonts/Gilroy-Medium/Gilroy-Medium.woff2) format("woff2"),
-    url(../fonts/Gilroy-Medium/Gilroy-Medium.ttf) format("truetype");
+  src: url(../../assets/fonts/Gilroy-Medium/Gilroy-Medium.eot);
+  src: url(../../assets/fonts/Gilroy-Medium/Gilroy-Medium.svg) format("svg"),
+    url(../../assets/fonts/Gilroy-Medium/Gilroy-Medium.woff) format("woff"),
+    url(../../assets/fonts/Gilroy-Medium/Gilroy-Medium.woff2) format("woff2"),
+    url(../../assets/fonts/Gilroy-Medium/Gilroy-Medium.ttf) format("truetype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 600;
   font-style: normal;
-  src: url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot);
-  src: url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg) format("svg"),
-    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff) format("woff"),
-    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff2) format("woff2"),
-    url(../fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf) format("truetype");
+  src: url(../../assets/fonts/Gilroy-SemiBold/Gilroy-SemiBold.eot);
+  src: url(../../assets/fonts/Gilroy-SemiBold/Gilroy-SemiBold.svg) format("svg"),
+    url(../../assets/fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff) format("woff"),
+    url(../../assets/fonts/Gilroy-SemiBold/Gilroy-SemiBold.woff2)
+      format("woff2"),
+    url(../../assets/fonts/Gilroy-SemiBold/Gilroy-SemiBold.ttf)
+      format("truetype");
 }
 
 @font-face {
   font-family: Gilroy;
   font-weight: 700;
   font-style: normal;
-  src: url(../fonts/Gilroy-Bold/Gilroy-Bold.eot);
-  src: url(../fonts/Gilroy-Bold/Gilroy-Bold..svg) format("svg"),
-    url(../fonts/Gilroy-Bold/Gilroy-Bold.woff) format("woff"),
-    url(../fonts/Gilroy-Bold/Gilroy-Bold.woff2) format("woff2"),
-    url(../fonts/Gilroy-Bold/Gilroy-Bold.ttf) format("truetype");
+  src: url(../../assets/fonts/Gilroy-Bold/Gilroy-Bold.eot);
+  src: url(../../assets/fonts/Gilroy-Bold/Gilroy-Bold..svg) format("svg"),
+    url(../../assets/fonts/Gilroy-Bold/Gilroy-Bold.woff) format("woff"),
+    url(../../assets/fonts/Gilroy-Bold/Gilroy-Bold.woff2) format("woff2"),
+    url(../../assets/fonts/Gilroy-Bold/Gilroy-Bold.ttf) format("truetype");
 }
 
 /*!
@@ -4342,12 +4344,13 @@
   font-style: normal;
   font-weight: normal;
   font-display: auto;
-  src: url(../webfonts/fa-brands-400.eot);
-  src: url(../webfonts/fa-brands-400d41d.eot?#iefix) format("embedded-opentype"),
-    url(../webfonts/fa-brands-400.woff2) format("woff2"),
-    url(../webfonts/fa-brands-400.woff) format("woff"),
-    url(../webfonts/fa-brands-400.ttf) format("truetype"),
-    url(../webfonts/fa-brands-400.svg#fontawesome) format("svg");
+  src: url(../../assets/fonts/webfonts/fa-brands-400.eot);
+  src: url(../../assets/fonts/webfonts/fa-brands-400d41d.eot?#iefix)
+      format("embedded-opentype"),
+    url(../../assets/fonts/webfonts/fa-brands-400.woff2) format("woff2"),
+    url(../../assets/fonts/webfonts/fa-brands-400.woff) format("woff"),
+    url(../../assets/fonts/webfonts/fa-brands-400.ttf) format("truetype"),
+    url(../../assets/fonts/webfonts/fa-brands-400.svg#fontawesome) format("svg");
 }
 .fab {
   font-family: "Font Awesome 5 Brands";
@@ -4357,13 +4360,14 @@
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url(../webfonts/fa-regular-400.eot);
-  src: url(../webfonts/fa-regular-400d41d.eot?#iefix)
+  src: url(../../assets/fonts/webfonts/fa-regular-400.eot);
+  src: url(../../assets/fonts/webfonts/fa-regular-400d41d.eot?#iefix)
       format("embedded-opentype"),
-    url(../webfonts/fa-regular-400.woff2) format("woff2"),
-    url(../webfonts/fa-regular-400.woff) format("woff"),
-    url(../webfonts/fa-regular-400.ttf) format("truetype"),
-    url(../webfonts/fa-regular-400.svg#fontawesome) format("svg");
+    url(../../assets/fonts/webfonts/fa-regular-400.woff2) format("woff2"),
+    url(../../assets/fonts/webfonts/fa-regular-400.woff) format("woff"),
+    url(../../assets/fonts/webfonts/fa-regular-400.ttf) format("truetype"),
+    url(../../assets/fonts/webfonts/fa-regular-400.svg#fontawesome)
+      format("svg");
 }
 .far {
   font-weight: 400;
@@ -4373,13 +4377,15 @@
   font-style: normal;
   font-weight: 900;
   font-display: auto;
-  src: url(../webfonts/fa-solid-900.eot);
-  src: url(../webfonts/fa-solid-900d41d.eot?#iefix) format("embedded-opentype"),
-    url(../webfonts/fa-solid-900.woff2) format("woff2"),
-    url(../webfonts/fa-solid-900.woff) format("woff"),
-    url(../webfonts/fa-solid-900.ttf) format("truetype"),
-    url(../webfonts/fa-solid-900.svg#fontawesome) format("svg");
+  src: url(../../assets/fonts/webfonts/fa-solid-900.eot);
+  src: url(../../assets/fonts/webfonts/fa-solid-900d41d.eot?#iefix)
+      format("embedded-opentype"),
+    url(../../assets/fonts/webfonts/fa-solid-900.woff2) format("woff2"),
+    url(../../assets/fonts/webfonts/fa-solid-900.woff) format("woff"),
+    url(../../assets/fonts/webfonts/fa-solid-900.ttf) format("truetype"),
+    url(../../assets/fonts/webfonts/fa-solid-900.svg#fontawesome) format("svg");
 }
+
 .fa,
 .far,
 .fas {
