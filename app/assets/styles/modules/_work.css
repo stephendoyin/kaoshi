@@ -1,0 +1,36 @@
+.work {
+  &__section {
+    padding-top: 3rem;
+    background: url(../../../assets/images/bgdesign.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+  }
+  &__number {
+    font-size: 2rem;
+  }
+  &__item {
+    margin-bottom: 40px;
+    width: 95%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #e5eaf4;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+  }
+  &__text {
+    font-size: 0.9rem;
+    color: #5a7184 !important;
+  }
+}
+
+@media (min-width: 567px) {
+  .work__item {
+    width: 47%;
+  }
+}
+
+@media (min-width: 922px) {
+  .work__item {
+    width: 20%;
+  }
+}

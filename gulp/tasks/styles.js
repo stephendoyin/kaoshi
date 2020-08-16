@@ -5,13 +5,11 @@ const postcss = require("gulp-postcss"),
   cssImport = require("postcss-import"),
   hexrgba = require("postcss-hexrgba");
 const { src, task, dest } = require("gulp");
-const fontMagic = require("postcss-font-magician");
+// const fontMagic = require("postcss-font-magician");
 
 task("styles", function () {
   return src("./app/assets/styles/styles.css")
-    .pipe(
-      postcss([cssImport, cssvars, nested, hexrgba, fontMagic, autoprefixer])
-    )
+    .pipe(postcss([cssImport, cssvars, nested, hexrgba, autoprefixer]))
     .on("error", function (errorInfo) {
       console.log(errorInfo.toString());
       this.emit("end");

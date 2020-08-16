@@ -1,3 +1,22 @@
 .service {
-  background: #fff;
+  background: url(../../../assets/images/Services.png);
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0 13rem 0;
+
+  &__icon {
+    min-width: 50px;
+    text-align: center;
+    display: block;
+
+    img {
+      opacity: 0.8;
+    }
+  }
+
+  &__item {
+    font-size: 1rem;
+    padding-bottom: 3rem;
+  }
 }

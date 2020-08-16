@@ -1,11 +1,38 @@
 .strip {
-  background: url(../../assets/images/Rectangle.jpg);
+  background: url(../../../assets/images/CTA.png);
   background-size: cover;
   background-position: center;
-  padding: 56px 0;
+  border-radius: 9px;
+  &__shield-img {
+    max-width: 150px;
+  }
+  &__title {
+    font-size: 2rem;
+  }
+  &__list {
+    list-style: none;
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    opacity: 0.8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    &:last-child {
+    }
+  }
+  &__bullet {
+    img {
+      width: 24px;
+    }
+  }
+  &__section {
+    /* padding: 30px 0; */
+  }
+}
 
-  .lead {
-    font-family: "Trueno Bold", sans-serif;
-    font-weight: normal;
+@media (min-width: 992px) {
+  .strip__shield-img {
+    max-width: 220px;
   }
 }

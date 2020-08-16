@@ -3,11 +3,12 @@
 @import "bootstrap/dist/css/bootstrap.css";
 @import "global/_variable.css";
 @import "global/_global.css";
+@import "swiper/swiper-bundle.css";
 @import "./modules/_header.css";
 @import "./modules/_nav.css";
-/* @import "./modules/_btn-custom.css";
-@import "./modules/_about.css";
-@import "./modules/_service.css";
+@import "./modules/_work.css";
 @import "./modules/_strip.css";
-@import "./modules/_testimonial.css";
-@import "./modules/_footer.css"; */
+@import "./modules/_service.css";
+@import "./modules/_why.css";
+@import "./modules/_faq.css";
+/*@import "./modules/_footer.css"; */

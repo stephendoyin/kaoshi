@@ -7,17 +7,17 @@ var gulp = require("gulp"),
   cleanCSS = require("gulp-clean-css"),
   { series } = require("gulp");
 
-gulp.task("previewDist", function () {
+gulp.task("previewDocs", function () {
   browserSync.init({
     notify: false,
     server: {
-      baseDir: "dist",
+      baseDir: "docs",
     },
   });
 });
 
 gulp.task("deleteDistFolder", function () {
-  return del("./dist");
+  return del("./docs");
 });
 
 gulp.task("copyGeneralFiles", function () {
@@ -30,7 +30,7 @@ gulp.task("copyGeneralFiles", function () {
     "!./app/temp/**",
   ];
 
-  return gulp.src(pathsToCopy).pipe(gulp.dest("./dist"));
+  return gulp.src(pathsToCopy).pipe(gulp.dest("./docs"));
 });
 
 gulp.task("usemin", function () {
@@ -56,5 +56,5 @@ gulp.task("usemin", function () {
         ],
       })
     )
-    .pipe(gulp.dest("./dist"));
+    .pipe(gulp.dest("./docs"));
 });

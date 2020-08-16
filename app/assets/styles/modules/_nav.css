@@ -2,15 +2,16 @@
   position: absolute;
   top: 0;
   width: 100%;
-  padding: 10px 0;
+  padding: 16px 0;
   z-index: 7;
   transition: all linear 0.5s;
   left: 0;
-  background: transparent;
+  background-color: transparent;
   &__link {
-    font-size: 0.875rem;
+    font-size: 0.99rem;
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
+    display: none;
     color: #183b56;
     &--active {
       color: #2f281e;
@@ -44,7 +45,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 0;
+    padding: 10px 0;
+    z-index: 100;
+    opacity: 0.97;
   }
   &__menu-icon {
     width: 40px;
@@ -159,5 +162,8 @@
 @media only screen and (min-width: 780px) {
   .nav__menu-icon {
     display: none;
+  }
+  .nav__link {
+    display: inline-block;
   }
 }

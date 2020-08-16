@@ -1,27 +1,72 @@
 .c-header {
   min-height: 100vh;
+  overflow: hidden;
+  padding-bottom: 0px;
   &__bg {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 4;
+    z-index: 0;
     max-width: 70%;
   }
   &__text-container {
-    width: 45%;
+    width: 100%;
     position: relative;
     z-index: 21;
+    padding-top: 25px;
+    padding-left: 2rem;
   }
   &__img-container {
-    width: 52%;
-
-    img {
-      width: 100%;
-      margin-top: ;
-    }
+    width: 100%;
+  }
+  &__main-img {
+    width: 100%;
+    z-index: 11;
   }
   &__title {
-    font-size: 4rem;
-    color: #1a244e;
+    font-size: 2.9rem;
+    color: var(--dark-blue);
+  }
+  &__text {
+    font-size: 1.125rem;
+    color: #5a7184;
+    font-weight: 400;
+    /* opacity: 94%; */
+    line-height: 1.8;
+  }
+  &__pattern {
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    max-width: 122px;
+    z-index: 0;
+  }
+  &__shape {
+    bottom: 0;
+    right: 0;
+  }
+  &__semi-circle {
+    top: -11%;
+    right: -23%;
+    width: 105%;
+  }
+}
+
+@media (min-width: 567px) {
+  .c-header__title {
+    font-size: 2.7rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .c-header__text-container {
+    width: 45%;
+    padding-left: 7rem;
+  }
+  .c-header__img-container {
+    width: 52%;
+  }
+  .c-header__title {
+    font-size: 3.7rem;
   }
 }
