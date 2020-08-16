@@ -50,6 +50,9 @@
     right: -23%;
     width: 105%;
   }
+  &__slide-item {
+    padding-top: 50px;
+  }
 }
 
 @media (min-width: 567px) {

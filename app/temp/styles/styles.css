@@ -15971,6 +15971,10 @@ p {
     color: var(--dark-blue);
   }
 
+.text-cus-col {
+  color: var(--dark-blue) !important;
+}
+
 .c-normal {
   font-weight: 400;
 }
@@ -16333,6 +16337,10 @@ p {
     top: -11%;
     right: -23%;
     width: 105%;
+  }
+
+.c-header__slide-item {
+    padding-top: 50px;
   }
 
 @media (min-width: 567px) {

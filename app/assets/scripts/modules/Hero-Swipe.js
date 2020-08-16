@@ -9,6 +9,7 @@ class HeroSlider {
     $(".swiper-container-one").owlCarousel({
       items: 1,
       dots: true,
+      loop: true,
     });
   }
 }

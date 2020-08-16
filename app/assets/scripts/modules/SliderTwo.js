@@ -9,6 +9,7 @@ class SliderTwo {
     $(".owl-slider-two").owlCarousel({
       items: 1,
       dots: true,
+      loop: true,
     });
   }
 }

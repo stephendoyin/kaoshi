@@ -57,6 +57,10 @@ p {
   }
 }
 
+.text-cus-col {
+  color: var(--dark-blue) !important;
+}
+
 .c-normal {
   font-weight: 400;
 }
