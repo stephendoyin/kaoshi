@@ -16422,7 +16422,7 @@ p {
   }
 
 .nav__menu-icon {
-    width: 40px;
+    width: 32px;
     margin-left: 18px;
     cursor: pointer;
     display: block;
@@ -16434,7 +16434,7 @@ p {
       height: 3px;
       width: 100%;
       display: block;
-      background: #ccc;
+      background: var(--primary);
     }
 
 .nav__menu-icon__line::before {
@@ -16443,7 +16443,7 @@ p {
         height: 3px;
         display: block;
         transform-origin: center;
-        background: #ccc;
+        background: var(--primary);
         position: absolute;
         top: -10px;
         transition: all 0.5s;
@@ -16455,7 +16455,7 @@ p {
         height: 3px;
         display: block;
         transform-origin: center;
-        background: #ccc;
+        background: var(--primary);
         position: absolute;
         top: 10px;
         transition: all 0.5s;
@@ -16465,7 +16465,7 @@ p {
         height: 3px;
         width: 0%;
         display: block;
-        background: #ccc;
+        background: var(--primary);
       }
 
 .nav__menu-icon__line--crossed::before {
@@ -16627,7 +16627,7 @@ p {
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5rem 0 13rem 0;
+  padding: 5rem 0 4rem 0;
 }
 
 .service__icon {
@@ -16644,6 +16644,18 @@ p {
     font-size: 1rem;
     padding-bottom: 3rem;
   }
+
+@media only screen and (min-width: 840px) {
+  .service {
+    padding: 5rem 0 9rem 0;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .service {
+    padding: 5rem 0 13rem 0;
+  }
+}
 
 .why__section {
     background: url(../../assets/images/background.png);
@@ -16830,4 +16842,57 @@ p {
   }
 }
 
-/*@import "./modules/_footer.css"; */
+.footer__logo-container {
+    width: 100%;
+    text-align: center;
+  }
+
+.footer__links {
+    width: 100%;
+  }
+
+.footer__links a {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      padding-left: 0;
+    }
+
+.footer__links a:last-child {
+        width: auto;
+        margin: auto;
+      }
+
+@media only screen and (min-width: 650px) {
+  .footer__links a {
+    width: 25%;
+  }
+  .footer__links a:last-child {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer__links a {
+    width: auto;
+  }
+  .footer__links {
+    width: auto;
+  }
+  .footer__links a:last-child {
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .footer__links a:last-child {
+    margin-left: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1320px) {
+  .footer__logo-container {
+    width: auto;
+  }
+}

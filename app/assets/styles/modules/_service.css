@@ -3,7 +3,7 @@
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 5rem 0 13rem 0;
+  padding: 5rem 0 4rem 0;
 
   &__icon {
     min-width: 50px;
@@ -18,5 +18,17 @@
   &__item {
     font-size: 1rem;
     padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 840px) {
+  .service {
+    padding: 5rem 0 9rem 0;
+  }
+}
+
+@media only screen and (min-width: 1040px) {
+  .service {
+    padding: 5rem 0 13rem 0;
   }
 }
