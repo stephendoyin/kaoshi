@@ -4,9 +4,11 @@ import MobileNav from "./modules/Mobile-Nav";
 import Faq from "./modules/Faq";
 import HeroSlider from "./modules/Hero-Swipe";
 import SliderTwo from "./modules/SliderTwo";
+import TeamSlider from "./modules/TeamSlider";
 
 let heroSlider = new HeroSlider();
 let navAnim = new NavAnim();
 let mobileNav = new MobileNav();
 let faq = new Faq();
 let sliderTwo = new SliderTwo();
+let teamSlider = new TeamSlider();

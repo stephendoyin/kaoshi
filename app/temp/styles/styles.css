@@ -16549,7 +16549,7 @@ p {
   }
 
 .work__number {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
 .work__item {
@@ -16894,5 +16894,81 @@ p {
 @media only screen and (min-width: 1320px) {
   .footer__logo-container {
     width: auto;
+  }
+}
+
+.about-p .c-header {
+    background: rgb(252 253 255);
+    background-image: url(../../assets/images/pattern-bg.png);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+  }
+
+.about-p__dots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 140px;
+    transform: translate(-10%, -30%);
+  }
+
+.about-p__m-section {
+    background: #fdfdfe;
+    padding: 3rem 0;
+  }
+
+.about-p__semi-circle {
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    max-width: 50%;
+  }
+
+.about-p__m-content {
+    z-index: 33;
+  }
+
+.about-p__nav-left {
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    cursor: pointer;
+    display: none;
+  }
+
+.about-p__nav-right {
+    position: absolute;
+    top: 30%;
+    right: -7%;
+    cursor: pointer;
+    display: none;
+  }
+
+.about-p__curve {
+    max-width: 55%;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    width: 55%;
+  }
+
+.about-p__team-section {
+    padding: 5rem 0;
+    overflow: hidden;
+  }
+
+.about-p__team-header {
+    z-index: 3;
+  }
+
+@media (min-width: 922px) {
+  .about-p .c-header__main-img {
+    width: 93%;
+  }
+  .about-p__nav-left,
+  .about-p__nav-right {
+    display: inline-block;
   }
 }

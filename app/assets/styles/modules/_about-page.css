@@ -1,0 +1,68 @@
+.about-p {
+  .c-header {
+    background: rgb(252 253 255);
+    background-image: url(../../assets/images/pattern-bg.png);
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+  }
+  &__dots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 140px;
+    transform: translate(-10%, -30%);
+  }
+  &__m-section {
+    background: #fdfdfe;
+    padding: 3rem 0;
+  }
+  &__semi-circle {
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    max-width: 50%;
+  }
+  &__m-content {
+    z-index: 33;
+  }
+  &__nav-left {
+    position: absolute;
+    top: 30%;
+    left: -7%;
+    cursor: pointer;
+    display: none;
+  }
+  &__nav-right {
+    position: absolute;
+    top: 30%;
+    right: -7%;
+    cursor: pointer;
+    display: none;
+  }
+  &__curve {
+    max-width: 55%;
+    z-index: 0;
+    right: 0;
+    top: 0;
+    width: 55%;
+  }
+  &__team-section {
+    padding: 5rem 0;
+    overflow: hidden;
+  }
+  &__team-header {
+    z-index: 3;
+  }
+}
+
+@media (min-width: 922px) {
+  .about-p .c-header__main-img {
+    width: 93%;
+  }
+  .about-p__nav-left,
+  .about-p__nav-right {
+    display: inline-block;
+  }
+}
