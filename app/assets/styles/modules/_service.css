@@ -9,10 +9,6 @@
     min-width: 50px;
     text-align: center;
     display: block;
-
-    img {
-      opacity: 0.8;
-    }
   }
 
   &__item {
