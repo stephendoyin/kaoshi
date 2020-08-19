@@ -15918,6 +15918,7 @@ html {
   padding: 0;
   background: #fff;
   color: #5a7184;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (min-width: 900px) {
@@ -16489,6 +16490,7 @@ p {
       overflow: auto;
       height: 330px;
       opacity: 1;
+      z-index: 0;
     }
 
 .nav-bar {

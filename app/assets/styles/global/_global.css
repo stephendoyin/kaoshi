@@ -10,6 +10,7 @@ html {
   padding: 0;
   background: #fff;
   color: #5a7184;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (min-width: 900px) {
