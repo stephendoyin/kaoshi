@@ -15934,7 +15934,7 @@ html {
 }
 
 body {
-  font-family: "Gilroy", sans-serif;
+  font-family: "Mulish", sans-serif;
   background: #fff;
   min-height: 100vh;
   font-style: normal;
@@ -15990,6 +15990,7 @@ p {
   font-size: 0.95rem;
   letter-spacing: 0.1875rem;
   border-radius: 0.5rem;
+  background: #4147d6;
 }
 
 @media (min-width: 1420px) {
@@ -16696,7 +16697,7 @@ p {
 }
 
 .faq__section {
-    background: #1565d8;
+    background: #4147d6;
     padding: 4rem 0;
   }
 
