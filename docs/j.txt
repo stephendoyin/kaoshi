@@ -1,0 +1,53 @@
+<li>ALGERIA,</li>
+<li>ANGOLA,</li>
+<li>BENIN,</li>
+<li>BOTSWANA,</li>
+<li>BURKINA FASO,</li>
+<li>BURUNDI,</li>
+<li>CAMEROON,</li>
+<li>CAPE VERDE,</li>
+<li>CENTRAL AFRICAN REPUBLIC,</li>
+<li>CHAD,</li>
+<li>COMOROS,</li>
+<li>CONGO DR,</li>
+<li>CONGO BRAZZAVILLE,</li>
+<li>DJIBOUTI,</li>
+<li>EGYPT,</li>
+<li>EQUATORIAL GUINEA,</li>
+<li>ERITREA,</li>
+<li>ETHIOPIA,</li>
+<li>GABON,</li>
+<li>GAMBIA,</li>
+<li>GHANA,</li>
+<li>GUINEA BISSAU,</li>
+<li>GUINEA CONAKRY,</li>
+<li>IVORY COAST,</li>
+<li>KENYA,</li>
+<li>LESOTHO,</li>
+<li>LIBERIA,</li>
+<li>LIBYA,</li>
+<li>MADAGASCAR,</li>
+<li>MALAWI,</li>
+<li>MALI,</li>
+<li>MAURITANIA,</li>
+<li>MAURITIUS,</li>
+<li>MOROCCO,</li>
+<li>MOZAMBIQUE,</li>
+<li>NAMIBIA,</li>
+<li>NIGER,</li>
+<li>NIGERIA,</li>
+<li>RWANDA,</li>
+<li>SAO TOME AND PRINCIPE,</li>
+<li>SENEGAL,</li>
+<li>SEYCHELLES,</li>
+<li>SIERRA LEONE,</li>
+<li>SOMALIA,</li>
+<li>SOUTH AFRICA,</li>
+<li>SOUTH SUDAN,</li>
+<li>SUDAN,</li>
+<li>TANZANIA,</li>
+<li>TOGO,</li>
+<li>TUNISIA,</li>
+<li>UGANDA,</li>
+<li>ZAMBIA,</li>
+<li>ZIMBABWE</li>

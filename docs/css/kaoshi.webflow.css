@@ -478,7 +478,7 @@
 }
 
 .faq-answer {
-  max-width: 900px;
+  /* max-width: 900px; */
   margin-bottom: 0px;
   margin-left: auto;
   padding-left: 28px;
@@ -533,7 +533,7 @@
   width: 645px;
   height: 200px;
   border-radius: 15px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png");
   background-position: 0px 0px;
   background-size: 125px;
 }
@@ -2497,4 +2497,3 @@
     grid-row-end: 6;
   }
 }
-
